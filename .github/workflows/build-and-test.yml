@@ -41,8 +41,8 @@ jobs:
       - name: Build JAR
         run: ./gradlew lwjgl3:jar
         
-      - name: Upload JAR artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: game-jar
-          path: lwjgl3/build/libs/OneGame-1.0.0.jar
+      # - name: Upload JAR artifact
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: game-jar
+      #     path: lwjgl3/build/libs/OneGame-1.0.0.jar
